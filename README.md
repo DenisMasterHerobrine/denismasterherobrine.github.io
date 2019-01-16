@@ -1,16 +1,10 @@
 This is my website.
 
 List of my Minecraft mods:
-+ [Blasting Elsewhere](https://minecraft.curseforge.com/projects/blasting-elsewhere)
-+ Lava Industries (Currently in closed early-alpha stage).
++ [Blasting Elsewhere](https://minecraft.curseforge.com/projects/blasting-elsewhere) - Discontinued
++ [Lava Industries](https://minecraft.curseforge.com/projects/lava-industries)
 
-List of my modpacks:
+List of my Minecraft modpacks:
 + [Streamers vs. Viewers](https://denismasterherobrine.github.io/StreamersVSViewers)
-
-A continuation for my private 1.10.2 project called Youtubers vs. Viewers, but now it's public and currently in development.
-+ Overheat
-
-Will you survive in a hellish world with a lot of technology world?
-  
-  
-Here you can find some secret things, if you're are a Sherlock Holmes.
++ [Overheat](https://minecraft.curseforge.com/projects/overheat)
++ Forever Stranded Lost Souls: Fixed Edition
