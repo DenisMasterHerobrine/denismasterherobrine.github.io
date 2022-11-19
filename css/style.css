@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.body {
+    background: rgb(82,15,9);
+    background: linear-gradient(90deg, rgba(82,15,9,1) 4%, rgba(33,2,2,1) 19%, rgba(33,2,2,1) 81%, rgba(82,15,9,1) 96%);
+}
+
+.title-font {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.main-font {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: rgb(255 157 157);
+}
+
+.main-question-font {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: rgb(255 142 92);
+}
+
+.main-answer-font {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: rgb(187 38 38);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    text-align: center;
+}
