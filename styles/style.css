@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkhemikal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/* ---- reset ---- */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #334;
+}
+
+a { 
+  color: inherit; 
+} 
+
+p {
+  text-indent: 40px; /* Indent the first line of the first paragraph by 50px */
+}
+
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+} 
+
+/* Texts */
+.alkhemikal-big {
+  font-family: 'Alkhemikal', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Horizontal offset, vertical offset, blur radius, color */
+  font-size: 80px;
+}
+
+.alkhemikal-header {
+  font-family: 'Alkhemikal', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Horizontal offset, vertical offset, blur radius, color */
+  font-size: 40px;
+}
+
+.alkhemikal-text {
+  font-family: 'Alkhemikal', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Horizontal offset, vertical offset, blur radius, color */
+  font-size: 24px;
+}
+
+/* White text with "Merriweather" font and without font shade */
+.merriweather-big {
+  font-family: 'Merriweather', serif;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Horizontal offset, vertical offset, blur radius, color */
+  font-size: 80px;
+}
+
+.merriweather-header {
+  font-family: 'Merriweather', serif;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Horizontal offset, vertical offset, blur radius, color */
+  font-size: 40px;
+}
+
+.merriweather-text {
+  font-family: 'Merriweather', serif;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Horizontal offset, vertical offset, blur radius, color */
+  font-size: 20px;
+}
+
+.left {
+  text-align: left;
+}
+
+/* Columns */
+.container_1 {
+  position: absolute;
+  padding-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.left-column, .right-column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.17); /* Semi-transparent white background */
+  border-left: 4px solid #000; /* Add a border to the left side */
+  border-right: 4px solid #000; /* Add a border to the right side */
+  padding: 0 20px;
+  /* Add padding, margin, etc. as needed */
+}
+
+.left-column {
+  height: 100vh;
+  flex: 0 0 70%; /* This sets the width of the left column to 65% of the container */
+  overflow-y: auto;
+  -ms-overflow-style: none;  /* Internet Explorer and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.left-column::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+.right-column {
+  height: 100vh;
+  flex: 0 0 25%; /* This sets the width of the right column to 25% of the container */
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: relative; /* Change to relative */
+  width: 100%;
+  height: 100%;
+}
+
+#particles-js::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  opacity: 0.5; /* Adjust as needed */
+  z-index: -1;
+}
+
+#particles-js::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(22, 0, 1, 0.1); /* semi-transparent red */
+  z-index: 0;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
